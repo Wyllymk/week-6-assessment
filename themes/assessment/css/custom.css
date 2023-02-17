@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+}
+  
+/* container class first unordered list */
+ .primary-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} 
+  
+ /* each navigation item */
+.primary-menu li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+ .primary-menu li:last-child {
+    border-right: none;
+  }
+  
+/* each navigation item anchor */
+ .primary-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+/* each navigation item anchor */
+ .primary-menu li a:hover {
+    background-color: #111;
+} 
+footer{
+    background-color: black;
+    color: white;
+}
+footer .primary-menu li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+/* // Class for Current Page */
+.current_page_item{
+    background-color: #04AA6D;
+} 
+
+.container{
+    background-color: rgb(167, 211, 211);
+    padding: 30px;
+    height: 80vh;
+}
+h1 > a{
+    text-decoration: none;
+    color: rgb(24, 12, 133)
+}
+h1 > a:hover{
+    color: #04AA6D;
+}
+.title{
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    background-color: #bbb;
+}
+
+.post-categories li {
+    text-decoration: none;
+    color: bisque;
+    list-style-type: none;
+}
+.post-categories li a{
+    text-decoration: none;
+    color: rgb(8, 54, 6);
+}
+.post-categories li a:hover{
+    text-decoration: none;
+    color: rgb(22, 156, 17);
+}
+.thumbnail-img{
+    margin-top: 10px;
+}
+.content{
+    margin-top: 10px;
+}
+.comments{
+    background-color: #bbb;
+    margin-top: 10px;
+}
+.pagination{
+    margin-top: 10px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.page-sidebar{
+    display: flex;
+    flex-flow: row;
+    min-height: 80vh;
+}
+aside{
+    padding: 25px;
+    max-width: 20vw;
+    border: 1px solid blue;
+    background-color: #bbb;
+    border-radius: 5px;
+}
+.page-sidebar > .container{
+    border: 1px solid yellow;
+    width: 80vw;
+    border-radius: 5px;
+
+}
